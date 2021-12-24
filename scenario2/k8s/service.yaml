@@ -3,9 +3,9 @@ kind: Service
 metadata:
   name: reverseproxy
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: reverseproxy
   ports:
   - port: 80
-    targetPort: 3000
+    nodePort: 30100

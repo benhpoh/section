@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: reverseproxy
-        image: benhpoh/reverseproxy
+        image: nginx
         resources:
           limits:
             memory: "128Mi"
