@@ -1,4 +1,3 @@
-Hi Section team
 Our webservers are struggling to keep up with the increased volume of traffic since the COVID lockdown and are hoping your caching solution can alleviate some burden Can you please make sure 
 - the category HTML pages are cached for 6 hours and the homepage for 24 hours? 
     - "category" - 6 hours
